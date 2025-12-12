@@ -1,6 +1,7 @@
 ﻿using bookDemo.Data;
 using bookDemo.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace bookDemo.Controllers
@@ -73,5 +74,33 @@ namespace bookDemo.Controllers
             return Ok(book);
         }
 
+        [HttpDelete]
+        public IActionResult DeleteAllBook()
+        {
+            ApplicationContext.Books.Clear();
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteOneBook([FromRoute(Name = "id")] int id, [FromBody] Book book)
+        {
+            var entity = ApplicationContext
+                .Books
+                .Find(x => x.Id == id);
+
+            if (entity is null)
+            {
+                return NotFound(new
+                {
+                    StatusCode = 404,
+                    message = $"Book width id:{id} could not found."
+                });
+            }
+
+            ApplicationContext.Books.Remove(entity);
+            return Ok(book);
+
+
+        }
     }
 }
