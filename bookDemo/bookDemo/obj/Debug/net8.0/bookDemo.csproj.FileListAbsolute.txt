@@ -34,3 +34,16 @@ E:\Projects\.Net\Book\bookDemo\bookDemo\obj\Debug\net8.0\refint\bookDemo.dll
 E:\Projects\.Net\Book\bookDemo\bookDemo\obj\Debug\net8.0\bookDemo.pdb
 E:\Projects\.Net\Book\bookDemo\bookDemo\obj\Debug\net8.0\bookDemo.genruntimeconfig.cache
 E:\Projects\.Net\Book\bookDemo\bookDemo\obj\Debug\net8.0\ref\bookDemo.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Projects\.Net\Book\bookDemo\bookDemo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
